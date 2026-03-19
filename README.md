@@ -73,6 +73,23 @@ Understanding OOP this way helps explain:
 
 ---
 
+## Cloud & AI System Mapping
+
+This demo reflects patterns used in modern cloud and AI systems:
+
+- Each conversation instance behaves like an isolated compute unit (AWS Lambda)
+- The shared class structure mirrors reusable service definitions (microservices)
+- State isolation reflects stateless vs stateful architecture patterns
+- Project grouping reflects service orchestration and multi-model routing layers
+
+---
+
+## Live Demo
+
+Open `web/index.html` in a browser to interact with the system. Create multiple conversation instances and observe how each maintains independent state while sharing the same class logic.
+
+---
+
 ## Diagram Overview
 
 See `/diagrams` for system visualizations.
