@@ -8,8 +8,8 @@ class Conversation {
     this.history = [];
   }
 
-  sendMessage(msg) {
-    const response = `[${this.topic}] ${msg}`;
+  sendMessage(message) {
+    const response = `[${this.topic}] Echo: ${message}`;
     this.history.push(response);
     return response;
   }

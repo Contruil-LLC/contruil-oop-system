@@ -3,8 +3,8 @@ class Conversation:
         self.topic = topic
         self.history = []
 
-    def send_message(self, msg):
-        response = f"[{self.topic}] {msg}"
+    def send_message(self, message):
+        response = f"[{self.topic}] Echo: {message}"
         self.history.append(response)
         return response
 
